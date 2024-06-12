@@ -156,3 +156,7 @@ cython_debug/
 
 #Virtual Environment
 .venv
+
+data/Dune.txt
+data/DuneBook1.txt
+data/DuneBook2.txt

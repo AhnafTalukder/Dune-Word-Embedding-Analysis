@@ -5,27 +5,26 @@
 
 
 
-
+<h3 align="center">Deep Learning and Embedding Analysis of Dune</h3>
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-    <img src="assets/Dune.jpg" alt="Logo" height="80">
+    <img src="assets/Dune.jpg" alt="Logo">
   
 
-  <h3 align="center">Best-README-Template</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    I want to discover how words are clustered in the Dune Saga. What words/characters/motifs are most commonly used together. Deep learning offers many ways of         analyzing complex text. In this project, I applied OpenAI's CLIP model to create embeddings which are stored in a vector database. These can be leveraged to do        visualizations, similarity searches, and train chatbots. 
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="">View Demo</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    <a href="">Report Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+    <a href="">Request Feature</a>
   </p>
 </div>
 
@@ -64,14 +63,14 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+My goal with this project was to leverage OpenAI’s CLIP embedding model to analyze text from Dune by Frank Herbert. More specifically, I wanted to understand how words/characters/motifs are grouped together. I sought to do this using OpenAI’s pretrained model and open source tools like langchain, which abstracts the complex logic of deep learning. 
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+Applications:
+* Do searches based on semantics (meaning) rather than syntax, using euclidean or cosine similarity search. This can allow people to go through a book based on descriptions they recall rather than a page number, which is very easily forgotten or hard to keep track of. This can immensely simplify reading large digital documents, PDFs, and Kindle books.
+* PCA can be done to decrease the dimensionality of each vector, which allows words and phrases to be visualized in graphs, allowing academics and researchers to understand relationships between words and concepts in a text.
+* The vector database can act as a brain for pre-trained Language Models. For instance, you can train ChatGPT using embeddings from Dune and have it role play as     Paul Atreideis, the main character.
+
 
 Use the `BLANK_README.md` to get started.
 

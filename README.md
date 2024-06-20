@@ -45,7 +45,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-My goal with this project was to leverage OpenAI’s embedding model to analyze text from "Dune" by Frank Herbert. More specifically, I wanted to understand how words, characters, and motifs are grouped together. I sought to do this using OpenAI’s pretrained model and open-source tools like LangChain, which abstracts the complex logic of deep learning.
+My goal with this project was to leverage OpenAI’s embedding model to analyze text from  the "Dune" book series by Frank Herbert. More specifically, I wanted to understand how words, characters, and motifs are grouped together. I sought to do this using OpenAI’s pretrained model and open-source tools like LangChain, which abstracts the complex logic of deep learning.
 
 Applications:
 * **Semantic Search**: Do searches based on semantics (meaning) rather than syntax, using Euclidean or cosine similarity search. This can allow people to go through a book based on descriptions they recall rather than a page number, simplifying the reading of large digital documents, PDFs, and Kindle books.
